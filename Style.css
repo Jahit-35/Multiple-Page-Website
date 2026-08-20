@@ -1,3 +1,42 @@
-h1{
-    color: antiquewhite;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1244;
+    
+}
+
+nav ul{
+    display: flex;
+    padding: 10px 200px;
+
+}
+nav ul li{
+    list-style-type: none;
+    margin: 10px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    background-color: #000;
+    color: #ff0000;
+    border-radius: 5px;
+}
+
+nav div h2{
+    color: #fff;
+    margin-top: 6px;
+    padding: 10px 25px;
 }
