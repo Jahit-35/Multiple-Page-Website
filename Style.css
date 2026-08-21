@@ -8,7 +8,7 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: #1a1244;
-    
+    border-bottom: 4px solid #401e63;
 }
 
 nav ul{
@@ -39,4 +39,49 @@ nav div h2{
     color: #fff;
     margin-top: 6px;
     padding: 10px 25px;
+}
+
+/* Hero Area code Start here */
+
+header{
+
+    background: url(Image/website\ banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.search-box-iconParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.search-box-iconParent div i{
+    font-size: 25px;
+    background-color: aqua;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -10px;
+}
+.search-box-iconParent input{
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+input[type="search"]::-webkit-search-cancel-button{
+
+    -webkit-appearance: none;
+    appearance: none;
 }
