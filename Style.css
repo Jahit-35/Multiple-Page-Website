@@ -131,7 +131,9 @@ main{
     height: 250px;
     border: 2px solid gray;
     transition: 0.5s;
+
 }
+
 .single-item img{
 
     width: 100%;
@@ -162,4 +164,46 @@ main{
 
 .single-item div h5{
     transition: 0.5s all ease-in-out;
+}
+
+
+/* previous and next button code */
+
+#Previous-next-parent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#Previous-next-parent h3 a{
+
+    background-color: #04aa6dd2;
+    padding: 10px 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+#Previous-next-parent h3 a:hover{
+
+    background-color: #0a8558dc;
+}
+#Previous-next-parent a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#Previous-next-parent>div>a{
+
+    margin: 0px 10px;
+    background-color: antiquewhite;
+    color: #000;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #555555ec;
+}
+
+#Previous-next-parent>div>a:nth-child(1){
+
+    background-color: #04aa6d;
+    color: #fff;
 }
