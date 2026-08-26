@@ -9,6 +9,10 @@ nav{
     justify-content: space-between;
     background-color: #1a1244;
     border-bottom: 4px solid #401e63;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
 }
 
 nav ul{
