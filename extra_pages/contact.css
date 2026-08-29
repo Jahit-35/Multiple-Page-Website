@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 800px;
+    background: linear-gradient(to right, #abc,#bcd,#045,#f45);
+    margin: 80px auto;
+    padding: 40px 0px;
+}
+
+form h2{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg ,#fff,#a5b4fc,#458);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#main-email-parent{
+    display: grid;
+    justify-content: center;
+}
+
+#main-email-parent input{
+
+    padding: 10px 5px;
+    margin-top: 15px;
+    width: 390px;
+    /* border-radius: 20px; */
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 3px solid #555;
+    font-size: 18px;
+}
+
+textarea{
+
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    border: 3px solid #555;
+    outline: none;
+    margin: 15px auto;
+    padding: 5px 10px;
+    font-size: 18px;
+    resize: none;
+    height: 80px;
+    width: 390px;
+
+}
+
+
+input[type="submit"]{
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    background:linear-gradient(90deg ,#00c6ff,#0072ff);
+    border-radius: 10px;
+    width: 390px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
