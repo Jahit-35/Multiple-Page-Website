@@ -4,11 +4,29 @@
     box-sizing: border-box;
 }
 
+.form-parent{
+    background: url(../Image/contact_background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 form{
     width: 800px;
-    background: linear-gradient(to right, #abc,#bcd,#045,#f45);
-    margin: 80px auto;
-    padding: 40px 0px;
+    background: rgba(0, 0, 0, 0.15);
+    height: 70vh;
+    padding: 10px 0px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 form h2{
@@ -16,9 +34,12 @@ form h2{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    background: linear-gradient(90deg ,#fff,#a5b4fc,#458);
+    background: linear-gradient(to right ,#00f2ff,#0072ff);
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    font-weight: 800;
+    letter-spacing: 2px;
+    filter: drop-shadow(0px 2px 4px rgba(0 0 0 0.3));
 }
 
 #main-email-parent{
@@ -35,7 +56,7 @@ form h2{
     border: none;
     outline: none;
     background: transparent;
-    border-bottom: 3px solid #555;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
     font-size: 18px;
 }
 
@@ -44,7 +65,9 @@ textarea{
     display: flex;
     justify-content: center;
     background: transparent;
-    border: 3px solid #555;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    color: #fff;
     outline: none;
     margin: 15px auto;
     padding: 5px 10px;
